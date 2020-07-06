@@ -12,7 +12,7 @@ eureka:
 spring:
   profiles: eureka
 server:
-  port: ${server.port}
+  port: ${eureka.instance.port}
 eureka:
   client:
     registerWithEureka: false
